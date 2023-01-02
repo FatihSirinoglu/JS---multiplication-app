@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(243, 231, 153);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form{
+    background-color: rgb(166, 203, 235);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0, .3);
+    border-radius: 10px;
+    margin: 222px;
+}    
+.input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    border: solid 4px rgb(179, 245, 179);
+    font-size: 14px;
+    border-radius: 8px;
+}
+.btn{
+    margin-top: 20px;
+    background-color: rgb(150, 242, 211);
+    padding: 10px;
+    width: 40%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    filter: brightness(0.9);
+}
+.score{
+    color: green;
+    text-align: right;
+    margin-right: 12px;
+}
